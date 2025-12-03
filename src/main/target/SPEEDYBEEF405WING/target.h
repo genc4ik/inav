@@ -172,6 +172,15 @@
 
 #define USE_PINIO
 #define USE_PINIOBOX
-#define PINIO1_PIN                  PB11
-#define USE_CUSTOM_DEFAULTS
-#define CUSTOM_DEFAULTS_FUNCTION applyCustomDefaults
+#define PINIO1_PIN                  PA15
+
+/*
+Для использования PINIO 
+PC9   s6
+PB14  s7
+PA15  s8
+PB10  s9
+PB11  s10
+PB15  s11
+
+*/
